@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -8,15 +8,64 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height:60vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.App-heading{
+  text-align: left;
+  width: 16em;
+  margin-left: 12em;
+
+}
+.App-dscrp{
+  font-size: medium;
+}
+
+.App-heading button {
+  height: 4em;
+  font-weight: 700;
+  font-size: medium;
+  width: 8em;
+}
 .App-link {
   color: #09d3ac;
+}
+
+.App-menu {
+
+  position: absolute;
+  right: 10em;
+  top: 1em;
+}
+
+.App-hack-logo{
+
+  position: absolute;
+  right: 45em;
+  top: 1em;
+}
+
+.App-section-wrapper{
+  display: flex;
+  justify-content: space-between;
+  min-height: 40vh;
+  margin: 2em 4em 2em 4em;;
+}
+
+.App-blocks img{
+  width: 6em;
+  align-self: flex-start;
+ display: block;
+ 
+
+}
+.App-blocks h3,p{
+ text-align: left;
+ max-width: 60%;
 }
